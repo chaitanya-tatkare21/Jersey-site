@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop/ZERSEY</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+
+    body {
+        background-image: url('images/cc6d5260-b891-11ef-8f4f-f32c7e094699.jpg'); /* <-- Your background image */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">ZERSEY
+      <ul>
+        <li><a href="index.html"></a></li>
+      </ul>
+    </div>
+
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="shop.html">SHOP</a></li>
+      <li><a href="about.html">ABOUT US</a></li>
+      <li> <a href="contact.html">CONTACT US</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- League Dropdown Filter -->
+   <div class="background-blur"></div>
+   <div class="content">
+  <div class="league-filter">
+  <select onchange="navigateLeague(this)">
+
+    <option value="">-- Select League --</option>
+    <option value="leagues/premier-league.html">Premier League</option>
+    <option value="leagues/la-liga.html">La Liga</option>
+    <option value="leagues/serie-a.html">Serie A</option>
+    <option value="leagues/bundesliga.html">Bundesliga</option>
+    <option value="leagues/ligue-1.html">Ligue 1</option>
+    <option value="leagues/international.html">International</option>
+  </select>
+  </div>
+
+
+  <!-- Premier League -->
+  
+   <section id="premier" class="jersey-section">
+
+    <h2>Premier League</h2>
+    <div class="jersey-grid">
+      <div class="jersey-card">
+        <img src="images/arsenal.jpeg" alt="Arsenal Home 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>Arsenal Away 2025</h3>
+          <p>₹499.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="jersey-card">
+        <img src="images/man-city.jpeg" alt="Man City Home 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>Man City Home 2025</h3>
+          <p>₹499.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <!-- La Liga -->
+  <section id="laliga" class="jersey-section">
+    <h2>La Liga</h2>
+    <div class="jersey-grid">
+      <div class="jersey-card">
+        <img src="images/barca.jpeg" alt="Barcelona Home 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>Barcelona Home 2025</h3>
+          <p>₹500.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="jersey-card">
+        <img src="images/real-madrid.jpeg" alt="Real Madrid Home 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>Real Madrid Home 2025</h3>
+          <p>₹500.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Serie A -->
+  <section id="seriea" class="jersey-section">
+    <h2>Serie A</h2>
+    <div class="jersey-grid">
+      <div class="jersey-card">
+        <img src="images/juventus.jpeg" alt="Juventus Home 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>Juventus Home 2025</h3>
+          <p>₹490.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="jersey-card">
+        <img src="images/ac-milan.jpeg" alt="AC Milan Home 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>AC Milan Away 2025</h3>
+          <p>₹499.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Bundesliga -->
+  <section id="seriea" class="jersey-section">
+    <h2> Bundesliga </h2>
+  <div class="jersey-grid">
+    <div class="jersey-card">
+      <img src="images/bayern-home-2025.jpeg" alt="Bayern Munich Home 2025" class="jersey-img" />
+      <div class="jersey-info">
+        <h3>Bayern Munich Home 2025</h3>
+        <p>₹499.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  
+    <div class="jersey-card">
+      <img src="images/Borussia Dortmund.webp" alt="Borussia Dortmund Home 2025" class="jersey-img" />
+      <div class="jersey-info">
+        <h3>Borussia Dortmund Home 2025</h3>
+        <p>₹490.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--ligue 1-->
+<section id="seriea" class="jersey-section">
+  <h2>ligue 1</h2>
+  <div class="jersey-grid">
+    <div class="jersey-card">
+      <img src="images/psg.jpeg" alt="Bayern Munich Home 2025" class="jersey-img" />
+      <div class="jersey-info">
+        <h3>PSG Home 2025</h3>
+        <p>₹399.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  
+    <div class="jersey-card">
+      <img src="images/Lyon.jpeg" alt="Borussia Dortmund Home 2025" class="jersey-img" />
+      <div class="jersey-info">
+        <h3> Lyon Home 2025</h3>
+        <p>₹399.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- International -->
+  <section id="international" class="jersey-section">
+    <h2>International</h2>
+    <div class="jersey-grid">
+      <div class="jersey-card">
+        <img src="images/Argentina50thanniversary.jpg" alt="Argentina Home 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>Argentina Home 2025</h3>
+          <p>₹500.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      
+      <div class="jersey-card">
+        <img src="images/barzil.jpeg" alt="Brazil Away 2025" class="jersey-img" />
+        <div class="jersey-info">
+          <h3>Brazil Away 2025</h3>
+          <p>₹499.00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
